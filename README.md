@@ -1,11 +1,11 @@
 # Análisis automatizado del Boletín Oficial con filtrado semántico
 
-Este proyecto permite detectar automáticamente normativa de interés publicada en el Boletín Oficial (de la Ciudad Autónoma de Buenos Aires o de la República Argentina), utilizando un enfoque mixto basado en búsqueda por palabras clave y evaluación semántica asistida por un modelo de lenguaje (LLM).
+Este proyecto permite detectar automáticamente normativa de interés publicada en el Boletín Oficial de la Ciudad Autónoma de Buenos Aires, utilizando un enfoque mixto basado en búsqueda por palabras clave y evaluación semántica asistida por un modelo de lenguaje (LLM).
 
 ## 🧩 Funcionalidad
 
 - Extrae texto de ejemplares en PDF del Boletín Oficial.
-- Busca coincidencias con una lista de términos clave (leyes, códigos, decretos, etc.).
+- Busca coincidencias con una lista de términos clave.
 - Evalúa si el contexto indica una acción normativa real (modificación, aprobación, derogación, etc.).
 - Exporta los resultados pertinentes en un archivo Excel, listo para revisión o archivo.
 
@@ -31,12 +31,12 @@ Este proyecto se distribuye bajo la licencia MIT. Puede ser reutilizado, adaptad
 
 # Automated Analysis of Official Gazette with Semantic Filtering
 
-This project enables the automated detection of relevant regulations published in the Official Gazette (Buenos Aires City or Argentine Republic), using a mixed approach based on keyword matching and semantic filtering powered by a Large Language Model (LLM).
+This project enables the automated detection of relevant regulations published in the Official Gazette Buenos Aires City, using a mixed approach based on keyword matching and semantic filtering powered by a Large Language Model (LLM).
 
 ## 🧩 Features
 
 - Extracts text from Official Gazette PDF files.
-- Searches for matches with a custom keyword list (laws, codes, decrees, etc.).
+- Searches for matches with a custom keyword list.
 - Evaluates whether the context reflects a real normative action (modification, approval, repeal, etc.).
 - Exports pertinent results to Excel for review or archiving.
 
